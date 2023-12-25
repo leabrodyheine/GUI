@@ -12,9 +12,6 @@ This Java Swing application allows users to create and manipulate simple vector 
 - Network functionality for sharing drawings.
 - JUnit tests.
 
-## Installation
-[Instructions for setting up the application.]
-
 ## Usage
 ### Drawing and Editing
 - Use GUI controls to select, draw, and manipulate shapes.
