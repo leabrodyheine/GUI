@@ -34,3 +34,6 @@ Ensure JUnit is installed and configured in your IDE.
 
 ### Executing Tests
 Compile and run JUnit tests
+
+
+**Grade: First (19 or 95%) UK Grading Scale**
