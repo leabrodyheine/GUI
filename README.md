@@ -4,22 +4,33 @@
 This Java Swing application allows users to create and manipulate simple vector graphics. It follows the Model-Delegate (MD) design pattern.
 
 ## Features
-- Drawing and manipulation of shapes like lines, rectangles, ellipses, and triangles.
-- Undo/Redo functionality.
-- Customizable shape properties such as color, border width, and fill.
-- Shape rotation.
-- Exporting drawings to JPEG or PNG.
-- Network functionality for sharing drawings.
-- JUnit tests.
+- **Shapes**: Supports lines, rectangles, ellipses, triangles, diamonds.
+- **Solid Fill**: Shapes can have a solid fill, defaulting to black, or no fill.
+- **Border Width**: Customizable border width.
+- **Color**: Separate fill and border color options.
+- **Rotate**: Rotate shapes by 30 degrees left or right.
+- **Undo/Redo**: For reverting or reapplying actions.
+- **Scale**: Scale shapes up or down by 10%.
+- **Square & Circle**: press shift to create a perfect square or circle.
+- **Delete**: Permanent deletion of shapes.
+- **Move**: Click and drag to move shapes.
+- **File Menu**:
+    - *Save*: Save as PNG.
+    - *Clear Screen*: Clears all shapes.
+- **Server Menu**:
+    - *Reconnect to Server*: Reconnect without server drawings.
+    - *Disconnect*: Disconnect from the server.
+    - *Delete My Drawing*: Delete your drawing from the server.
+    - *Update Drawing*: Update your drawing on the server.
+    - *Upload to Server*: Upload shapes to the server.
+    - *Get Server Drawings*: View all drawings on the server.
 
-## Usage
-### Drawing and Editing
-- Use GUI controls to select, draw, and manipulate shapes.
-- Modify properties like color and rotation through the interface.
+## Running the Application
+Execute via the run button in your IDE.
 
-### Networking
-- Share drawings with other users via the server.
-- Button in GUI that allows you to connect to the server, show all drawings, upload drawings, etc. 
+## Running JUnit Tests
+### Test Environment Setup
+Ensure JUnit is installed and configured in your IDE.
 
-## Testing
-- JUnit tests included in the src code folder
+### Executing Tests
+Compile and run JUnit tests
